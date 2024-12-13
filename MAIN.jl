@@ -1,8 +1,8 @@
 
 
-# Set these values before each run
-global const N = 3 # Number of terminals
-global const D = 2 # Dimension
+# Set these values before each run and restart REPL 
+global const N = 6 # Number of terminals
+global const D = 3 # Dimension
 
 include("./Generators/Simplex_generator.jl")
 include("./Generators/N_D_generator.jl")
