@@ -14,6 +14,8 @@ include("./dist.jl")
 include("./Initialise_Const.jl")
 include("./node.jl")
 
+include("./MST.jl")
+
 include("Preprocess.jl")
 
 include("./BuildTree.jl")
